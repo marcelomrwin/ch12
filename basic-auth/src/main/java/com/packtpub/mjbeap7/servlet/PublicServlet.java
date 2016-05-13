@@ -63,7 +63,7 @@ public class PublicServlet extends HttpServlet {
         writer.println("<p>" + "Principal  : " + (principal != null ? principal.getName() : "--") + "</p>");
         writer.println("<p>" + "Remote User : " + remoteUser + "</p>");
         writer.println("<p>" + "Authentication Type : " + authType + "</p>");
-        writer.println("<p><a href=\"http://192.168.59.104:8080/basic-auth/\" alt=\"Go back\">Go back</a></p>");
+        writer.println("<p><a href=\"/basic-auth\" alt=\"Go back\">Go back</a></p>");
         writer.println(PAGE_FOOTER);
         writer.close();
     }
